@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/01/05/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>编程</category>
+        <category>配置</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>测试博客</title>
+    <url>/2022/01/05/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h2 id="线性结构"><a href="#线性结构" class="headerlink" title="线性结构"></a>线性结构</h2><h3 id="LinkedList"><a href="#LinkedList" class="headerlink" title="LinkedList"></a>LinkedList</h3><h4 id="LinkedList例题"><a href="#LinkedList例题" class="headerlink" title="LinkedList例题"></a>LinkedList例题</h4><ol>
+<li><p><a href="https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/">https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/</a></p>
+</li>
+<li><p><a href="https://leetcode-cn.com/problems/reverse-linked-list-ii/">https://leetcode-cn.com/problems/reverse-linked-list-ii/</a></p>
+</li>
+<li><p><a href="https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/">https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/</a></p>
+<span id="more"></span></li>
+</ol>
+<h3 id="Stack"><a href="#Stack" class="headerlink" title="Stack"></a>Stack</h3><h4 id="单调栈"><a href="#单调栈" class="headerlink" title="单调栈"></a>单调栈</h4><blockquote>
+<p>单调递增栈是这样一种栈：</p>
+<p>每当push一个数a[i]</p>
+<ol>
+<li>如果a[i]比栈顶元素大，则直接入栈</li>
+<li>如果a[i]比较小，则不断pop栈顶元素，直到栈顶元素小于a[i]</li>
+</ol>
+<p>单调递增栈有下面3个重要属性：</p>
+<ol>
+<li>栈内元素是递增的</li>
+<li>当元素出栈时，<strong>新元素a[i]<strong>是出栈元素</strong>向后</strong>找第一个比其小的元素</li>
+<li>当元素出栈后，<strong>新栈顶元素</strong>是出栈元素<strong>向前</strong>找第一个不比其大的元素</li>
+</ol>
+</blockquote>
+<p>单调栈很有用，严格的数学证明暂时不会，直接记住它就行了。</p>
+<h5 id="单调栈例题"><a href="#单调栈例题" class="headerlink" title="单调栈例题"></a>单调栈例题</h5><ol>
+<li><a href="https://leetcode-cn.com/problems/largest-rectangle-in-histogram/">https://leetcode-cn.com/problems/largest-rectangle-in-histogram/</a></li>
+<li><a href="https://leetcode-cn.com/problems/trapping-rain-water/">https://leetcode-cn.com/problems/trapping-rain-water/</a></li>
+</ol>
+<h2 id="树形结构"><a href="#树形结构" class="headerlink" title="树形结构"></a>树形结构</h2><h3 id="Binary-Tree"><a href="#Binary-Tree" class="headerlink" title="Binary Tree"></a>Binary Tree</h3><h4 id="Binary-Tree例题（全员分治）"><a href="#Binary-Tree例题（全员分治）" class="headerlink" title="Binary Tree例题（全员分治）"></a>Binary Tree例题（全员分治）</h4><ol>
+<li><a href="https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/">https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/</a></li>
+<li><a href="https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/">https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/</a></li>
+<li><a href="https://leetcode-cn.com/problems/maximum-difference-between-node-and-ancestor/">https://leetcode-cn.com/problems/maximum-difference-between-node-and-ancestor/</a></li>
+<li><a href="https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/">https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/</a></li>
+<li><a href="https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/">https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/</a></li>
+<li><a href="https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/">https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/</a></li>
+<li><a href="https://leetcode-cn.com/problems/lowest-common-ancestor-of-deepest-leaves/">https://leetcode-cn.com/problems/lowest-common-ancestor-of-deepest-leaves/</a></li>
+<li><a href="https://leetcode-cn.com/problems/binary-tree-coloring-game/">https://leetcode-cn.com/problems/binary-tree-coloring-game/</a></li>
+<li><a href="https://leetcode-cn.com/problems/distribute-coins-in-binary-tree/">https://leetcode-cn.com/problems/distribute-coins-in-binary-tree/</a></li>
+<li><a href="https://leetcode-cn.com/problems/delete-nodes-and-return-forest/">https://leetcode-cn.com/problems/delete-nodes-and-return-forest/</a></li>
+<li><a href="https://pintia.cn/problem-sets/994805342720868352/problems/994805485033603072">https://pintia.cn/problem-sets/994805342720868352/problems/994805485033603072</a></li>
+</ol>
+<h3 id="BST"><a href="#BST" class="headerlink" title="BST"></a>BST</h3><h4 id="BST例题"><a href="#BST例题" class="headerlink" title="BST例题"></a>BST例题</h4><ol>
+<li><a href="https://leetcode-cn.com/problems/validate-binary-search-tree/">https://leetcode-cn.com/problems/validate-binary-search-tree/</a></li>
+<li><a href="https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/">https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/</a></li>
+<li><a href="https://leetcode-cn.com/problems/convert-bst-to-greater-tree/">https://leetcode-cn.com/problems/convert-bst-to-greater-tree/</a></li>
+<li><a href="https://pintia.cn/problem-sets/994805342720868352/problems/994805440976633856">https://pintia.cn/problem-sets/994805342720868352/problems/994805440976633856</a></li>
+</ol>
+<h3 id="AVL"><a href="#AVL" class="headerlink" title="AVL"></a>AVL</h3><h4 id="AVL例题"><a href="#AVL例题" class="headerlink" title="AVL例题"></a>AVL例题</h4><ol>
+<li><a href="https://leetcode-cn.com/problems/balanced-binary-tree/">https://leetcode-cn.com/problems/balanced-binary-tree/</a></li>
+<li><a href="https://pintia.cn/problem-sets/994805342720868352/problems/994805351302414336">https://pintia.cn/problem-sets/994805342720868352/problems/994805351302414336</a></li>
+</ol>
+<h3 id="Heap"><a href="#Heap" class="headerlink" title="Heap"></a>Heap</h3><h4 id="使用数组实现最小堆"><a href="#使用数组实现最小堆" class="headerlink" title="使用数组实现最小堆"></a>使用数组实现最小堆</h4><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 模拟最小堆的建立、插入和删除</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> MAXN = <span class="number">1e4</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> heap[MAXN];</span><br><span class="line"><span class="keyword">int</span> n;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">buildHeap</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">int</span> i = n / <span class="number">2</span>; i &gt;= <span class="number">1</span>; --i) &#123;</span><br><span class="line">    <span class="keyword">int</span> p = i;</span><br><span class="line">    <span class="keyword">while</span> (p * <span class="number">2</span> &lt;= n) &#123;</span><br><span class="line">      <span class="keyword">int</span> child = p * <span class="number">2</span>;</span><br><span class="line">      <span class="keyword">if</span> (child + <span class="number">1</span> &lt;= n &amp;&amp; heap[child + <span class="number">1</span>] &lt; heap[child]) &#123;</span><br><span class="line">        ++child;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">if</span> (heap[p] &gt; heap[child]) &#123;</span><br><span class="line">        <span class="built_in">swap</span>(heap[p], heap[child]);</span><br><span class="line">        p = child;</span><br><span class="line">      &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">pushHeap</span><span class="params">(<span class="keyword">int</span> val)</span> </span>&#123;</span><br><span class="line">  ++n;</span><br><span class="line">  heap[n] = val;</span><br><span class="line">  <span class="keyword">int</span> p = n;</span><br><span class="line">  <span class="keyword">while</span> (p &gt; <span class="number">1</span> &amp;&amp; heap[p] &lt; heap[p / <span class="number">2</span>]) &#123;</span><br><span class="line">    <span class="built_in">swap</span>(heap[p], heap[p / <span class="number">2</span>]);</span><br><span class="line">		p = p / <span class="number">2</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">popHeap</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  heap[<span class="number">1</span>] = heap[n];</span><br><span class="line">  --n;</span><br><span class="line">  <span class="keyword">int</span> p = <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">while</span> (p * <span class="number">2</span> &lt;= n) &#123;</span><br><span class="line">    <span class="keyword">int</span> child = p * <span class="number">2</span>;</span><br><span class="line">    <span class="keyword">if</span> (child + <span class="number">1</span> &lt;= n &amp;&amp; heap[child + <span class="number">1</span>] &lt; heap[child]) &#123;</span><br><span class="line">      ++child;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (heap[p] &gt; heap[child]) &#123;</span><br><span class="line">      <span class="built_in">swap</span>(heap[p], heap[child]);</span><br><span class="line">      p = child;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">      <span class="keyword">break</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> LOCAL</span></span><br><span class="line">  <span class="built_in">freopen</span>(<span class="string">&quot;in.txt&quot;</span>, <span class="string">&quot;r&quot;</span>, stdin);</span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span></span></span><br><span class="line">  <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;n);</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; ++i) &#123;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;heap[i]);</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="built_in">buildHeap</span>();</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; ++i) &#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d &quot;</span>, heap[i]);</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="Heap例题"><a href="#Heap例题" class="headerlink" title="Heap例题"></a>Heap例题</h4><ol>
+<li><a href="https://pintia.cn/problem-sets/994805342720868352/problems/1071785408849047552">https://pintia.cn/problem-sets/994805342720868352/problems/1071785408849047552</a></li>
+</ol>
+<h3 id="Trie"><a href="#Trie" class="headerlink" title="Trie"></a>Trie</h3><h4 id="Trie例题"><a href="#Trie例题" class="headerlink" title="Trie例题"></a>Trie例题</h4><ol>
+<li><a href="https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/">https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/</a></li>
+<li><a href="https://leetcode-cn.com/problems/word-search-ii/">https://leetcode-cn.com/problems/word-search-ii/</a></li>
+</ol>
+<h3 id="Huffman"><a href="#Huffman" class="headerlink" title="Huffman"></a>Huffman</h3><h3 id="Union-Find"><a href="#Union-Find" class="headerlink" title="Union-Find"></a>Union-Find</h3><h4 id="实现Union-Find"><a href="#实现Union-Find" class="headerlink" title="实现Union-Find"></a>实现Union-Find</h4><h4 id="Union-Find例题"><a href="#Union-Find例题" class="headerlink" title="Union-Find例题"></a>Union-Find例题</h4><ol>
+<li><a href="https://pintia.cn/problem-sets/994805342720868352/problems/994805500414115840">https://pintia.cn/problem-sets/994805342720868352/problems/994805500414115840</a></li>
+<li><a href="https://pintia.cn/problem-sets/994805342720868352/problems/994805361586847744">https://pintia.cn/problem-sets/994805342720868352/problems/994805361586847744</a></li>
+</ol>
+<h2 id="图"><a href="#图" class="headerlink" title="图"></a>图</h2><h3 id="图的存储"><a href="#图的存储" class="headerlink" title="图的存储"></a>图的存储</h3><h3 id="图的遍历"><a href="#图的遍历" class="headerlink" title="图的遍历"></a>图的遍历</h3><ol>
+<li>BFS</li>
+<li>DFS</li>
+</ol>
+<h4 id="图的遍历例题"><a href="#图的遍历例题" class="headerlink" title="图的遍历例题"></a>图的遍历例题</h4><ol>
+<li><a href="https://pintia.cn/problem-sets/994805342720868352/problems/994805392092020736">https://pintia.cn/problem-sets/994805342720868352/problems/994805392092020736</a></li>
+<li><a href="https://pintia.cn/problem-sets/994805342720868352/problems/994805375457411072">https://pintia.cn/problem-sets/994805342720868352/problems/994805375457411072</a></li>
+</ol>
+<h3 id="最短路径"><a href="#最短路径" class="headerlink" title="最短路径"></a>最短路径</h3><ol>
+<li><p>Dijkstra</p>
+</li>
+<li><p>Floyd</p>
+</li>
+<li><p>Bellman-Ford</p>
+</li>
+<li><p>SPFA</p>
+</li>
+</ol>
+<h4 id="最短路径例题"><a href="#最短路径例题" class="headerlink" title="最短路径例题"></a>最短路径例题</h4><ol>
+<li><a href="https://pintia.cn/problem-sets/994805342720868352/problems/994805523835109376">https://pintia.cn/problem-sets/994805342720868352/problems/994805523835109376</a></li>
+<li><a href="https://pintia.cn/problem-sets/994805342720868352/problems/994805464397627392">https://pintia.cn/problem-sets/994805342720868352/problems/994805464397627392</a></li>
+<li><a href="https://pintia.cn/problem-sets/994805342720868352/problems/994805347523346432">https://pintia.cn/problem-sets/994805342720868352/problems/994805347523346432</a></li>
+</ol>
+<h3 id="最小生成树"><a href="#最小生成树" class="headerlink" title="最小生成树"></a>最小生成树</h3><ol>
+<li><p>prim</p>
+</li>
+<li><p>kruskal</p>
+</li>
+</ol>
+<h3 id="拓扑排序"><a href="#拓扑排序" class="headerlink" title="拓扑排序"></a>拓扑排序</h3><h2 id="Hash"><a href="#Hash" class="headerlink" title="Hash"></a>Hash</h2>]]></content>
+      <categories>
+        <category>编程</category>
+        <category>数据结构</category>
+      </categories>
+      <tags>
+        <tag>垃圾</tag>
+      </tags>
+  </entry>
+</search>
