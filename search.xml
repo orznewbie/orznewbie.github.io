@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>下载MinGW-W64安装包</title>
+    <url>/programming/config/MinGW-W64-Download/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h2 id="一、下载MinGW-W64安装包"><a href="#一、下载MinGW-W64安装包" class="headerlink" title="一、下载MinGW-W64安装包"></a>一、下载MinGW-W64安装包</h2><p>下载地址（需要代理）：<a href="https://sourceforge.net/projects/mingw-w64/files/">https://sourceforge.net/projects/mingw-w64/files/</a></p>
+<p>点击最新版本的x86_64-win32-seh文件进行下载</p>
+<p><img data-src="https://gitee.com/orznewbie/image/raw/master/image/image-20210909151350000.png" alt="image-20210909151350000"></p>
+<h2 id="二、解压安装并配置环境变量"><a href="#二、解压安装并配置环境变量" class="headerlink" title="二、解压安装并配置环境变量"></a>二、解压安装并配置环境变量</h2><p>解压安装包到合适位置</p>
+<p><img data-src="https://raw.githubusercontent.com/orznewbie/image/master/image/20220101184929.png" alt="image-20210909151716736"></p>
+<p>然后对应地添加环境变量</p>
+<p><img data-src="https://gitee.com/orznewbie/image/raw/master/image/image-20210909151906986.png" alt="image-20210909151906986"></p>
+<h2 id="三、验证安装成功"><a href="#三、验证安装成功" class="headerlink" title="三、验证安装成功"></a>三、验证安装成功</h2><p>打开cmd命令行输入<code>gcc -v</code>，显示以下内容表示MinGW-W64安装成功</p>
+<p><img data-src="https://gitee.com/orznewbie/image/raw/master/image/image-20210909152142325.png" alt="image-20210909152142325"></p>
+]]></content>
+      <categories>
+        <category>编程</category>
+        <category>配置</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Hello World</title>
-    <url>//posts/undefined/</url>
+    <url>/programming/config/hello/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
@@ -27,7 +47,7 @@
   </entry>
   <entry>
     <title>测试博客</title>
-    <url>//posts/undefined/</url>
+    <url>/programming/data-structure/test-blog/</url>
     <content><![CDATA[<h2 id="线性结构"><a href="#线性结构" class="headerlink" title="线性结构"></a>线性结构</h2><h3 id="LinkedList"><a href="#LinkedList" class="headerlink" title="LinkedList"></a>LinkedList</h3><h4 id="LinkedList例题"><a href="#LinkedList例题" class="headerlink" title="LinkedList例题"></a>LinkedList例题</h4><ol>
 <li><p><a href="https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/">https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/</a></p>
 </li>

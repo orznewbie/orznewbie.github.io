@@ -1256,7 +1256,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #f2ff06;
+  background: #be5e7f;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2758,7 +2758,7 @@ mjx-container + br {
 }
 /* header-页面背景 */
 body {
-  background-image: url("images/body-bg.png");
+  background-image: url("/images/body-bg.png");
   background-repeat: repeat;
   background-attachment: fixed;
 }
@@ -2769,7 +2769,7 @@ body {
 }
 /* Day of Mourning */
 .site-brand-container {
-  background: url("images/header-bg.jpg");
+  background: url("/images/header-bg.jpg");
   background-position: 70% 20%;
   background-size: cover;
 }
