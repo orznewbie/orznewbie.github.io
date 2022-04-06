@@ -1,53 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>下载MinGW-W64安装包</title>
-    <url>/programming/config/MinGW-W64-Download/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<h2 id="一、下载MinGW-W64安装包"><a href="#一、下载MinGW-W64安装包" class="headerlink" title="一、下载MinGW-W64安装包"></a>一、下载MinGW-W64安装包</h2><p>下载地址（需要代理）：<a href="https://sourceforge.net/projects/mingw-w64/files/">https://sourceforge.net/projects/mingw-w64/files/</a></p>
-<p>点击最新版本的x86_64-win32-seh文件进行下载</p>
-<p><img data-src="https://gitee.com/orznewbie/image/raw/master/image/image-20210909151350000.png" alt="image-20210909151350000"></p>
-<h2 id="二、解压安装并配置环境变量"><a href="#二、解压安装并配置环境变量" class="headerlink" title="二、解压安装并配置环境变量"></a>二、解压安装并配置环境变量</h2><p>解压安装包到合适位置</p>
-<p><img data-src="https://raw.githubusercontent.com/orznewbie/image/master/image/20220101184929.png" alt="image-20210909151716736"></p>
-<p>然后对应地添加环境变量</p>
-<p><img data-src="https://gitee.com/orznewbie/image/raw/master/image/image-20210909151906986.png" alt="image-20210909151906986"></p>
-<h2 id="三、验证安装成功"><a href="#三、验证安装成功" class="headerlink" title="三、验证安装成功"></a>三、验证安装成功</h2><p>打开cmd命令行输入<code>gcc -v</code>，显示以下内容表示MinGW-W64安装成功</p>
-<p><img data-src="https://gitee.com/orznewbie/image/raw/master/image/image-20210909152142325.png" alt="image-20210909152142325"></p>
-]]></content>
-      <categories>
-        <category>编程</category>
-        <category>配置</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/programming/config/hello/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>编程</category>
-        <category>配置</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>测试博客</title>
-    <url>/programming/data-structure/test-blog/</url>
+    <url>/%E7%BC%96%E7%A8%8B/data-structure/cs/data-structure/tmp/</url>
     <content><![CDATA[<h2 id="线性结构"><a href="#线性结构" class="headerlink" title="线性结构"></a>线性结构</h2><h3 id="LinkedList"><a href="#LinkedList" class="headerlink" title="LinkedList"></a>LinkedList</h3><h4 id="LinkedList例题"><a href="#LinkedList例题" class="headerlink" title="LinkedList例题"></a>LinkedList例题</h4><ol>
 <li><p><a href="https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/">https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/</a></p>
 </li>
@@ -148,5 +103,52 @@
       <tags>
         <tag>垃圾</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>mysql</title>
+    <url>/uncategorized/cs/db/mysql/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h2 id="mysql学习笔记"><a href="#mysql学习笔记" class="headerlink" title="mysql学习笔记"></a>mysql学习笔记</h2>]]></content>
+  </entry>
+  <entry>
+    <title>mongo</title>
+    <url>/uncategorized/cs/db/mongo/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h1 id="mongo学习笔记"><a href="#mongo学习笔记" class="headerlink" title="mongo学习笔记"></a>mongo学习笔记</h1><h2 id="mongo集群"><a href="#mongo集群" class="headerlink" title="mongo集群"></a>mongo集群</h2><ol>
+<li>mongo replica包括三种节点，只能从Primary节点写，Secondary节点可以通过配置ReadPreference进行读取</li>
+</ol>
+<p><img data-src="https://docs.mongodb.com/manual/images/replica-set-primary-with-secondary-and-arbiter.bakedsvg.svg" alt="Diagram of a replica set that consists of a primary, a secondary, and an arbiter."></p>
+<ol start="2">
+<li><p>Secondary节点的分类</p>
+<ul>
+<li>Priority=0：不会被选举为Primary，也不会触发选举</li>
+<li>Hidden：Priority=0且无法被读取</li>
+<li>Delayed：必须是Priority=0且Hidden，用来做历史数据快照</li>
+</ul>
+</li>
+<li><p>几个术语</p>
+<ul>
+<li>Write Concern：当Primary节点写入时，Secondary确认后才通过的节点数目</li>
+</ul>
+</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>dgraph</title>
+    <url>/uncategorized/cs/db/dgraph/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h2 id="Dgraph集群，Alpha，Zero等"><a href="#Dgraph集群，Alpha，Zero等" class="headerlink" title="Dgraph集群，Alpha，Zero等"></a>Dgraph集群，Alpha，Zero等</h2><ul>
+<li><p>Dgraph集群由若干Alpha和若干Zero节点构成，Alpha节点存数据，Zero节点管理Alpha节点</p>
+</li>
+<li><p>一个dgraph集群至少要有一个alpha节点和一个zero节点；运行一个alpha节点之前，必须要先运行一个zero节点</p>
+<p><img data-src="D:\repo\code\go\src\xtwin2\doc\dgraph\image-20220317162221601.png" alt="image-20220317162221601"></p>
+</li>
+<li></li>
+</ul>
+]]></content>
   </entry>
 </search>

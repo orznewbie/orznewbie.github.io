@@ -20,24 +20,21 @@
     var CONFIG = {"hostname":"orznewbie.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":true,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="一、下载MinGW-W64安装包下载地址（需要代理）：https:&#x2F;&#x2F;sourceforge.net&#x2F;projects&#x2F;mingw-w64&#x2F;files&#x2F; 点击最新版本的x86_64-win32-seh文件进行下载  二、解压安装并配置环境变量解压安装包到合适位置  然后对应地添加环境变量  三、验证安装成功打开cmd命令行输入gcc -v，显示以下内容表示MinGW-W64安装成功">
+  <meta name="description" content="Dgraph集群，Alpha，Zero等 Dgraph集群由若干Alpha和若干Zero节点构成，Alpha节点存数据，Zero节点管理Alpha节点  一个dgraph集群至少要有一个alpha节点和一个zero节点；运行一个alpha节点之前，必须要先运行一个zero节点">
 <meta property="og:type" content="article">
-<meta property="og:title" content="下载MinGW-W64安装包">
-<meta property="og:url" content="http://orznewbie.github.io/programming/config/MinGW-W64-Download/">
+<meta property="og:title" content="dgraph">
+<meta property="og:url" content="http://orznewbie.github.io/uncategorized/cs/db/dgraph/">
 <meta property="og:site_name" content="一颗海上星">
-<meta property="og:description" content="一、下载MinGW-W64安装包下载地址（需要代理）：https:&#x2F;&#x2F;sourceforge.net&#x2F;projects&#x2F;mingw-w64&#x2F;files&#x2F; 点击最新版本的x86_64-win32-seh文件进行下载  二、解压安装并配置环境变量解压安装包到合适位置  然后对应地添加环境变量  三、验证安装成功打开cmd命令行输入gcc -v，显示以下内容表示MinGW-W64安装成功">
+<meta property="og:description" content="Dgraph集群，Alpha，Zero等 Dgraph集群由若干Alpha和若干Zero节点构成，Alpha节点存数据，Zero节点管理Alpha节点  一个dgraph集群至少要有一个alpha节点和一个zero节点；运行一个alpha节点之前，必须要先运行一个zero节点">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://gitee.com/orznewbie/image/raw/master/image/image-20210909151350000.png">
-<meta property="og:image" content="https://raw.githubusercontent.com/orznewbie/image/master/image/20220101184929.png">
-<meta property="og:image" content="https://gitee.com/orznewbie/image/raw/master/image/image-20210909151906986.png">
-<meta property="og:image" content="https://gitee.com/orznewbie/image/raw/master/image/image-20210909152142325.png">
-<meta property="article:published_time" content="2022-04-05T10:34:39.000Z">
-<meta property="article:modified_time" content="2022-04-05T10:38:03.321Z">
+<meta property="og:image" content="d:/repo/code/go/src/xtwin2/doc/dgraph/image-20220317162221601.png">
+<meta property="article:published_time" content="2022-04-06T14:44:07.000Z">
+<meta property="article:modified_time" content="2022-04-06T14:47:03.362Z">
 <meta property="article:author" content="Hu Haolong">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://gitee.com/orznewbie/image/raw/master/image/image-20210909151350000.png">
+<meta name="twitter:image" content="d:/repo/code/go/src/xtwin2/doc/dgraph/image-20220317162221601.png">
 
-<link rel="canonical" href="http://orznewbie.github.io/programming/config/MinGW-W64-Download/">
+<link rel="canonical" href="http://orznewbie.github.io/uncategorized/cs/db/dgraph/">
 
 
 <script id="page-configurations">
@@ -50,7 +47,7 @@
   };
 </script>
 
-  <title>下载MinGW-W64安装包 | 一颗海上星</title>
+  <title>dgraph | 一颗海上星</title>
   
 
 
@@ -195,7 +192,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://orznewbie.github.io/programming/config/MinGW-W64-Download/">
+    <link itemprop="mainEntityOfPage" href="http://orznewbie.github.io/uncategorized/cs/db/dgraph/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -208,7 +205,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          下载MinGW-W64安装包
+          dgraph
         </h1>
 
         <div class="post-meta">
@@ -219,20 +216,7 @@
               <span class="post-meta-item-text">发布：</span>
               
 
-              <time title="创建时间：2022-04-05 18:34:39 / 修改时间：18:38:03" itemprop="dateCreated datePublished" datetime="2022-04-05T18:34:39+08:00">2022-04-05</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类：</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/programming/" itemprop="url" rel="index"><span itemprop="name">编程</span></a>
-                </span>
-                  /
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/programming/config/" itemprop="url" rel="index"><span itemprop="name">配置</span></a>
-                </span>
+              <time title="创建时间：2022-04-06 22:44:07 / 修改时间：22:47:03" itemprop="dateCreated datePublished" datetime="2022-04-06T22:44:07+08:00">2022-04-06</time>
             </span>
 
           
@@ -248,15 +232,14 @@
       
         <span id="more"></span>
 
-<h2 id="一、下载MinGW-W64安装包"><a href="#一、下载MinGW-W64安装包" class="headerlink" title="一、下载MinGW-W64安装包"></a>一、下载MinGW-W64安装包</h2><p>下载地址（需要代理）：<a target="_blank" rel="noopener" href="https://sourceforge.net/projects/mingw-w64/files/">https://sourceforge.net/projects/mingw-w64/files/</a></p>
-<p>点击最新版本的x86_64-win32-seh文件进行下载</p>
-<p><img data-src="https://gitee.com/orznewbie/image/raw/master/image/image-20210909151350000.png" alt="image-20210909151350000"></p>
-<h2 id="二、解压安装并配置环境变量"><a href="#二、解压安装并配置环境变量" class="headerlink" title="二、解压安装并配置环境变量"></a>二、解压安装并配置环境变量</h2><p>解压安装包到合适位置</p>
-<p><img data-src="https://raw.githubusercontent.com/orznewbie/image/master/image/20220101184929.png" alt="image-20210909151716736"></p>
-<p>然后对应地添加环境变量</p>
-<p><img data-src="https://gitee.com/orznewbie/image/raw/master/image/image-20210909151906986.png" alt="image-20210909151906986"></p>
-<h2 id="三、验证安装成功"><a href="#三、验证安装成功" class="headerlink" title="三、验证安装成功"></a>三、验证安装成功</h2><p>打开cmd命令行输入<code>gcc -v</code>，显示以下内容表示MinGW-W64安装成功</p>
-<p><img data-src="https://gitee.com/orznewbie/image/raw/master/image/image-20210909152142325.png" alt="image-20210909152142325"></p>
+<h2 id="Dgraph集群，Alpha，Zero等"><a href="#Dgraph集群，Alpha，Zero等" class="headerlink" title="Dgraph集群，Alpha，Zero等"></a>Dgraph集群，Alpha，Zero等</h2><ul>
+<li><p>Dgraph集群由若干Alpha和若干Zero节点构成，Alpha节点存数据，Zero节点管理Alpha节点</p>
+</li>
+<li><p>一个dgraph集群至少要有一个alpha节点和一个zero节点；运行一个alpha节点之前，必须要先运行一个zero节点</p>
+<p><img data-src="D:\repo\code\go\src\xtwin2\doc\dgraph\image-20220317162221601.png" alt="image-20220317162221601"></p>
+</li>
+<li></li>
+</ul>
 
     </div>
 
@@ -272,8 +255,8 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/programming/config/hello/hello-world/" rel="prev" title="Hello World">
-      <i class="fa fa-chevron-left"></i> Hello World
+    <a href="/uncategorized/cs/db/mongo/" rel="prev" title="mongo">
+      <i class="fa fa-chevron-left"></i> mongo
     </a></div>
       <div class="post-nav-item"></div>
     </div>
@@ -334,7 +317,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E4%B8%8B%E8%BD%BDMinGW-W64%E5%AE%89%E8%A3%85%E5%8C%85"><span class="nav-text">一、下载MinGW-W64安装包</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E8%A7%A3%E5%8E%8B%E5%AE%89%E8%A3%85%E5%B9%B6%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F"><span class="nav-text">二、解压安装并配置环境变量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E9%AA%8C%E8%AF%81%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F"><span class="nav-text">三、验证安装成功</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Dgraph%E9%9B%86%E7%BE%A4%EF%BC%8CAlpha%EF%BC%8CZero%E7%AD%89"><span class="nav-text">Dgraph集群，Alpha，Zero等</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
